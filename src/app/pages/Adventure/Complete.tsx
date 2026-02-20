@@ -39,7 +39,7 @@ export function AdventureComplete() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#0a0a0c] text-white items-center justify-center p-6 relative overflow-hidden font-sans">
+    <div className="flex flex-col min-h-screen bg-[#0a0a0c] text-white items-center justify-center pt-20 pb-6 px-6 relative overflow-hidden font-sans">
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay pointer-events-none" />
       <div className="absolute top-[-20%] left-[-20%] w-[80%] h-[80%] bg-blue-900/20 blur-[150px] rounded-full pointer-events-none" />
       <div className="absolute bottom-[-20%] right-[-20%] w-[80%] h-[80%] bg-purple-900/20 blur-[150px] rounded-full pointer-events-none" />

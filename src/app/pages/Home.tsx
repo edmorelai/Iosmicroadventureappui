@@ -49,7 +49,7 @@ export function Home() {
       </div>
 
       {/* 1. Player HUD */}
-      <header className="relative z-10 pt-14 px-6 mb-8">
+      <header className="relative z-10 pt-20 px-6 mb-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             {/* Avatar & Level Ring */}

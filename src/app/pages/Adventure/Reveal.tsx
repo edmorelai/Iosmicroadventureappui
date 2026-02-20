@@ -103,7 +103,7 @@ export function AdventureReveal() {
                  {/* Image Placeholder */}
                  <div className="h-2/5 bg-slate-900 relative overflow-hidden group">
                     <img 
-                      src={`https://source.unsplash.com/800x600/?${adventure.imageQuery}`} 
+                      src={adventure.imageUrl} 
                       alt={adventure.title}
                       className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                     />

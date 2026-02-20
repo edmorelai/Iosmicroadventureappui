@@ -16,6 +16,7 @@ export interface Adventure {
   steps: string[];
   tips: string[];
   imageQuery: string;
+  imageUrl: string;
 }
 
 export const ADVENTURES: Adventure[] = [
@@ -38,7 +39,8 @@ export const ADVENTURES: Adventure[] = [
       'Ask the barista for their recommendation.',
       'Look for places with "Specialty Coffee" signs.'
     ],
-    imageQuery: 'latte art coffee shop'
+    imageQuery: 'latte art coffee shop',
+    imageUrl: 'https://images.unsplash.com/photo-1629991848910-2ab88d9cc52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXR0ZSUyMGFydCUyMGNvZmZlZSUyMHNob3B8ZW58MXx8fHwxNzcxNTAwMTkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
     id: '2',
@@ -59,7 +61,8 @@ export const ADVENTURES: Adventure[] = [
       'Leave your phone in your pocket while observing.',
       'Take a deep breath.'
     ],
-    imageQuery: 'city park bench'
+    imageQuery: 'city park bench',
+    imageUrl: 'https://images.unsplash.com/photo-1765808434503-3ff708f920aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwcGFyayUyMGJlbmNoJTIwbmF0dXJlfGVufDF8fHx8MTc3MTU3NjAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
     id: '3',
@@ -80,7 +83,8 @@ export const ADVENTURES: Adventure[] = [
       'Keep it brief and sincere.',
       'Expect nothing in return.'
     ],
-    imageQuery: 'people talking smiling street'
+    imageQuery: 'people talking smiling street',
+    imageUrl: 'https://images.unsplash.com/photo-1758525226180-3fc0045e6e5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHN0cmVldCUyMGZyaWVuZHMlMjB0YWxraW5nfGVufDF8fHx8MTc3MTU3NjAxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
     id: '4',
@@ -101,7 +105,8 @@ export const ADVENTURES: Adventure[] = [
       'Focus on outlines first.',
       'Use a pen so you can’t erase mistakes.'
     ],
-    imageQuery: 'sketchbook drawing cafe'
+    imageQuery: 'sketchbook drawing cafe',
+    imageUrl: 'https://images.unsplash.com/photo-1721132537184-5494c01ed87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxza2V0Y2hib29rJTIwZHJhd2luZyUyMGNhZmUlMjBwZXJzcGVjdGl2ZXxlbnwxfHx8fDE3NzE1NzYwMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
     id: '5',
@@ -122,7 +127,8 @@ export const ADVENTURES: Adventure[] = [
       'Watch your step!',
       'Good for a quick energy boost.'
     ],
-    imageQuery: 'outdoor stairs running'
+    imageQuery: 'outdoor stairs running',
+    imageUrl: 'https://images.unsplash.com/photo-1718034453627-48ee6ff97a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwc3RhaXJzJTIwd29ya291dCUyMHJ1bm5lcnxlbnwxfHx8fDE3NzE1NzYwMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
    {
     id: '6',
@@ -143,7 +149,8 @@ export const ADVENTURES: Adventure[] = [
       'If you like it, keep reading!',
       'Respect the quiet rules.'
     ],
-    imageQuery: 'library bookshelf reading'
+    imageQuery: 'library bookshelf reading',
+    imageUrl: 'https://images.unsplash.com/photo-1768854262081-52db6e209485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsaWJyYXJ5JTIwYm9va3NoZWxmJTIwcmVhZGluZyUyMG15c3Rlcnl8ZW58MXx8fHwxNzcxNTc2MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   },
   {
     id: '7',
@@ -164,7 +171,8 @@ export const ADVENTURES: Adventure[] = [
       'Notice how many times you reach for your phone.',
       'Enjoy the silence.'
     ],
-    imageQuery: 'cozy reading chair home'
+    imageQuery: 'cozy reading chair home',
+    imageUrl: 'https://images.unsplash.com/photo-1762492903747-b935e35fa199?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwcmVhZGluZyUyMGNoYWlyJTIwaG9tZSUyMGJvb2t8ZW58MXx8fHwxNzcxNTc2MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
   }
 ];
 
@@ -187,5 +195,6 @@ export const DAILY_BOSS: Adventure = {
     'Check sunset time locally.',
     'Bring water.'
   ],
-  imageQuery: 'sunset running golden hour'
+  imageQuery: 'sunset running golden hour',
+  imageUrl: 'https://images.unsplash.com/photo-1766603065050-fe4714da1232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW5zZXQlMjBydW5uaW5nJTIwZ29sZGVuJTIwaG91ciUyMHNpbGhvdWV0dGV8ZW58MXx8fHwxNzcxNTc2MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
 };

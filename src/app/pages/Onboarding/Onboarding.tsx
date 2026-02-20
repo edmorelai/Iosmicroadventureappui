@@ -210,7 +210,7 @@ export function Onboarding() {
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 mix-blend-overlay pointer-events-none" />
       <div className="absolute top-0 right-0 w-[80%] h-[80%] bg-blue-900/10 blur-[120px] rounded-full pointer-events-none" />
 
-      <div className="flex-1 flex flex-col pt-10 relative z-10">
+      <div className="flex-1 flex flex-col pt-20 relative z-10">
           <div className="flex space-x-1 mb-10">
              {steps.map((_, i) => (
                  <div key={i} className={clsx("h-1 flex-1 rounded-full transition-all duration-500", i <= step ? 'bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.5)]' : 'bg-slate-800')} />

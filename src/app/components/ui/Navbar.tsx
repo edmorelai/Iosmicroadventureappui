@@ -18,7 +18,7 @@ export function Navbar({ title, largeTitle, showBack, rightAction, className, ch
   const navigate = useNavigate();
 
   return (
-    <div className={twMerge("sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50 pb-2 transition-all dark:bg-black/80 dark:border-white/10", className)}>
+    <div className={twMerge("sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50 pb-2 pt-14 transition-all dark:bg-black/80 dark:border-white/10", className)}>
       <div className="flex items-center justify-between px-4 h-14">
         <div className="flex items-center flex-1">
           {showBack && (
